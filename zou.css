@@ -1,27 +1,38 @@
+.first{
+  width: 300px;
+  display: block;
+  
+}
 .tifirst{
     max-width: 300px;
     width: 300px;
     font-family:Roboto , Arial, Helvetica, sans-serif;
     font-weight: bold;
   }
-
+  .videopre{
+    width: 302px;
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 10px;
+  }
   .namefirst,
   .viewfirst{
   display: inline-block;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin: 0;
+  padding: 0;
   }
 
-  .first{
-    width: 300px;
-    
-  }
   .searchbox{
+    display: block;
     color: rgb(rgb(97, 96, 96), green, blue);
     border-radius: 11px;
     align-items: center;
     position: relative;
 -webkit-align-items: center;
 align-items: center;
-background-color: var(--ytd-searchbox-background);
+
 border: 1px solid ;
 border-right: none;
 border-radius: 40px 0 0 40px;
